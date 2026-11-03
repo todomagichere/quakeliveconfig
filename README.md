@@ -2,7 +2,7 @@
 
 Configuración que carga Quake Live al arrancar (`baseq3`).
 
-- `autoexec.cfg` — ajustes de red/FPS que se aplican en cada arranque (`rate 25000`, `cl_maxpackets 125`, `cl_packetdup 1`, `com_maxfps 250`).
+- `autoexec.cfg` — ajustes de red/FPS que se aplican en cada arranque (`rate 25000`, `cl_maxpackets 125`, `cl_packetdup 1`, `com_maxfps 250`, `cl_timeNudge 0`: suavidad antes que inmediatez).
 - `repconfig.cfg` — preferencias de juego, ratón, red y binds (lo guarda el juego al salir).
 - `qzconfig.cfg` — motor, vídeo, servidor y menús (lo guarda el juego al salir).
 
