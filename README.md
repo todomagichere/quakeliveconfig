@@ -6,6 +6,10 @@ Configuración que carga Quake Live al arrancar (`baseq3`).
 - `repconfig.cfg` — preferencias de juego, ratón, red y binds (lo guarda el juego al salir).
 - `qzconfig.cfg` — motor, vídeo, servidor y menús (lo guarda el juego al salir).
 
+## Legacy
+
+- `legacy/raziel.cfg` — config antigua (`[NBT]r4ziel`, 2013), guardada solo como recuerdo. El juego no la carga y **no hay que copiarla** a `baseq3`: empieza con `unbindall` y restauraría la sensibilidad, el FOV y la red de entonces.
+
 ## Instalación
 
 Copiar los `.cfg` en:
